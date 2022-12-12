@@ -15,14 +15,12 @@ docker run -p 8888:8888 --add-host=host.docker.internal:host-gateway jupyter/pys
 ## Install Packages
 
 ```
-pip install hyperopt mlflow
+pip install hyperopt mlflow XGBoost
 ```
 
 ## Tutorials
 
-|--------|-----------------------------------|------------------------------------------------------|
-| Folder |  File                             | Description                                          | 
-|--------|-----------------------------------|------------------------------------------------------|
-|Pyspark |F01_data_processing                | Feature Extraction, Transformation, Selection, LSH   |
-|        |F01_mlflow_basics                  | MLFlow basics                                        |
-|--------|-----------------------------------|------------------------------------------------------|
+| Folder |  File                                                                      | Description                                          | 
+|--------|----------------------------------------------------------------------------|------------------------------------------------------|
+|Pyspark |[Data Processing](./pyspark/F01_data_processing.ipynb)                      | Feature Extraction, Transformation, Selection, LSH   |
+|        |[Machine Learning Basic](./pyspark/M01_machine_learning_basics.ipynb)       | Machine Learning basics - Training, MLFlow, Hyperopt |        |        |[SkitLearn](./pyspark/M02_skitlearn_Random_Forest.ipynb)                    | Skitlearn - Training, MLFlow, Hyperopt               |
