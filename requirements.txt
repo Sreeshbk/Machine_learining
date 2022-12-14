@@ -6,3 +6,4 @@ mlserver-mlflow==1.2.0
 petastorm==0.12.0
 shap==0.41.0
 xgboost==1.7.2
+tensi
