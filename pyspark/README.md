@@ -10,7 +10,7 @@ docker run -p 8888:8888 --add-host=host.docker.internal:host-gateway jupyter/pys
 ## Install Packages
 
 ```
-pip install hyperopt mlflow XGBoost mlflow[extras] Petastorm shap 
+pip install hyperopt mlflow XGBoost mlflow[extras] Petastorm shap tensorflow torch torchvision sparknlp
 ```
 
 ## Starting MLFLow
